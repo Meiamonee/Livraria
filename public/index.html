@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Cadastro de Livros</h1>
+
+    <form id="livro-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" required>
+
+        <label for="preco">Preço:</label>
+        <input type="number" id="preco" required>
+
+        <label for="genero">Gênero:</label>
+        <input type="text" id="genero" required>
+
+        <label for="classificacaoEtaria">Classificação Etária:</label>
+        <input type="text" id="classificacaoEtaria" required>
+
+        <label for="promocao">Promoção:</label>
+        <input type="checkbox" id="promocao">
+
+        <button type="submit">Adicionar Livro</button>
+    </form>
+
+    <h2>Livros Disponíveis</h2>
+    <div id="livros-lista"></div>
+<!-- Modal -->
+<div id="modal-editar" class="modal">
+    <div class="modal-content">
+        <span class="close" id="fechar-modal">&times;</span>
+        <h2>Editar Livro</h2>
+        <label for="novo-preco">Novo Preço:</label>
+        <input type="number" id="novo-preco" placeholder="Digite o novo preço" required>
+        
+        <label for="nova-promocao">Está em promoção?</label>
+        <select id="nova-promocao">
+            <option value="true">Sim</option>
+            <option value="false">Não</option>
+        </select>
+        
+        <button id="salvar-edicao">Salvar</button>
+    </div>
+</div>
+
+
+    <div id="mensagem-promocao"></div>
+
+    <script src="app.js"></script>
+</body>
+</html>
