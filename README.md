@@ -20,23 +20,23 @@ Além disso, o sistema foi desenvolvido com uma funcionalidade especial: quando 
 
 📦 Instalação
 
-    Clone o repositório:
+ Clone o repositório:
 
-git clone https://github.com/Meiamonee/Livraria.git
+    git clone https://github.com/Meiamonee/Livraria.git
 
-Acesse o diretório do projeto:
+ Acesse o diretório do projeto:
 
-cd Livraria
+    cd Livraria
 
 Instale as dependências:
 
-npm install
-    ▶️ Executando a Aplicação
-    
-    Após a instalação, inicie o servidor com o seguinte comando:
+    npm install
+▶️ Executando a Aplicação
 
-    node server.js
-    A aplicação estará disponível em http://localhost:3000.
+ Após a instalação, inicie o servidor com o seguinte comando:
+     
+     node server.js
+ A aplicação estará disponível em http://localhost:3000.
     
 📁 Estrutura do Projeto
 
