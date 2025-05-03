@@ -18,19 +18,19 @@ Além disso, o sistema foi desenvolvido com uma funcionalidade especial: quando 
 
     WebSocket (para notificações em tempo real)
 
-    📦 Instalação
-    1. Clone o repositório:
-    
-    git clone https://github.com/Meiamonee/Livraria.git
+📦 Instalação
 
-    2. Acesse o diretório do projeto:
+    Clone o repositório:
 
-    cd Livraria
+git clone https://github.com/Meiamonee/Livraria.git
 
-    3. Instale as dependências:
-    
-    npm install
+Acesse o diretório do projeto:
 
+cd Livraria
+
+Instale as dependências:
+
+npm install
     ▶️ Executando a Aplicação
     
     Após a instalação, inicie o servidor com o seguinte comando:
